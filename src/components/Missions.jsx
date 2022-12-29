@@ -13,13 +13,14 @@ class Missions extends React.Component {
         <ul>
           {missions
             .map((a) => (
-              <MissionCard
-                key={ a }
-                mission-name={ a.name }
-                mission-year={ a.year }
-                mission-country={ a.country }
-                mission-destination={ a.destination }
-              />
+              <li key={ a.name }>
+                <MissionCard
+                  name={ a.name }
+                  year={ a.year }
+                  country={ a.country }
+                  destination={ a.destination }
+                />
+              </li>
             ))}
         </ul>
       </>
@@ -34,10 +35,6 @@ Missions.propTypes = {
     country: PropTypes.string.isRequired,
     destination: PropTypes.string.isRequired,
   }).isRequired,
-};
-
-missions.defaultPtops = {
-  Missions: [],
 };
 
 export default Missions;
