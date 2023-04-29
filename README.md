@@ -1,6 +1,6 @@
 # :sunny: Solar system :ringed_planet:
 
-Neste projeto desenvolvi um modelo do sistema solar! utilizando essa aplicaão , uma pessoa poderar vizualizar todos os planetas do sistema solar e suas missões.
+Neste projeto desenvolvi um modelo do sistema solar! Utilizando essa aplicação, uma pessoa apoderar visualizar todos os planetas do sistema solar e suas missões.
 
 #### habilidades usadas neste projeto:
 * JSX no React;
